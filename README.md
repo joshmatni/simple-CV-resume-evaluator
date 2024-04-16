@@ -43,8 +43,8 @@ Before you run the program, ensure you have the following installed:
 
 #### Example
     ```bash
-    python cv_analysis.py example_cv.pdf AI intern
-```
+        python cv_analysis.py example_cv.pdf AI intern
+    ```
 
 ## Limitations
 - The CV must be in a text-readable PDF format; scanned images are not supported.
