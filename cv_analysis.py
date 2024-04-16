@@ -60,8 +60,11 @@ def get_args():
 
 def main() -> None:
     args = get_args()
-    model = get_model()
-    analyze_cv(args.file_path, args.job_position, model)
+    try:
+        model = get_model()
+        analyze_cv(args.file_path, args.job_position, model)
+    except KeyError:
+        print(f"The job position '{args.job_position}' is not recognized. Please specify one of the predefined positions.")
 
 if __name__ == "__main__":
     main()
