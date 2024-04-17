@@ -10,14 +10,14 @@ This tool helps analyze your CV against different job positions to determine how
 ## Installation
 
 1. **Clone the repository:**
-   ```bash
+```bash
    git clone <repository-url>
    cd <repository-path>
-   ```
+```
 2. ** Create virtual environment**
-    ```bash
+```bash
     python -m venv venv
-    ```
+```
 ### Activate the virtual environment
 #### On Windows
 ```bash
@@ -30,15 +30,14 @@ This tool helps analyze your CV against different job positions to determine how
 ```
 
 3. **Install Dependencies**
-    ```bash
+```bash
     pip install -r requirements.txt
-    ```
+```
 
 3. **Run the program**
-    ```bash
+```bash
     python cv_analysis.py <path-to-cv> --label <job-position>
-    ```
-
+```
 ### Arguments
 - `path-to-cv`: The file path to your CV in PDF format.
 - `job-position`: The job position you are applying for! Example:
