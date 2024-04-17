@@ -7,6 +7,10 @@ This tool helps analyze your CV against different job positions to determine how
 - Analyze CVs for different job positions, Example: AI Intern, DevOps Intern, Frontend Intern.
 - Provides a confidence score indicating the suitability for the chosen job position.
 
+## Prerequisites
+Before you run the program, ensure you have the following installed:
+- Python 3.7 or higher
+
 ## Installation
 
 1. **Clone the repository:**
@@ -14,7 +18,7 @@ This tool helps analyze your CV against different job positions to determine how
    git clone <repository-url>
    cd <repository-path>
 ```
-2. ** Create virtual environment**
+2. **Create virtual environment**
 ```bash
     python -m venv venv
 ```
