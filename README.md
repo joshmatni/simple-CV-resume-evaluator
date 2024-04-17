@@ -20,15 +20,14 @@ This tool helps analyze your CV against different job positions to determine how
     ```
 ### Activate the virtual environment
 #### On Windows
-    ```bash
+```bash
     .\venv\Scripts\activate
-    ```
+```
 
 #### On Unix or MacOS
-    ```bash
+```bash
     source venv/bin/activate
-    ```
-
+```
 
 3. **Install Dependencies**
     ```bash
@@ -48,5 +47,4 @@ This tool helps analyze your CV against different job positions to determine how
     - Frontend
 
 ## Limitations
-- The CV must be in a text-readable PDF format; scanned images are not supported.
-- The program currently only supports predefined job positions and cannot dynamically handle other positions without additional configuration.
+- The CV must be in a text-readable .pdf or .txt format; scanned images are not supported.
