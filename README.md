@@ -29,6 +29,7 @@ This tool helps analyze your CV against different job positions to determine how
     source venv/bin/activate
     ```
 
+
 3. **Install Dependencies**
     ```bash
     pip install -r requirements.txt
