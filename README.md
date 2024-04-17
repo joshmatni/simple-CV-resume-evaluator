@@ -23,28 +23,35 @@ Before you run the program, ensure you have the following installed:
    git clone <repository-url>
    cd <repository-path>
    ```
-
-2. **Install dependencies**
+2. ** Create virtual environment**
     ```bash
-    pip install PyPDF2 transformers argparse
+    python -m venv venv
+    ```
+### Activate the virtual environment
+#### On Windows
+    ```bash
+    .\venv\Scripts\activate
+    ```
+#### On Unix or MacOS
+    ```bash
+    source venv/bin/activate
+    ```
+3. **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
     ```
 
 3. **Run the program**
     ```bash
-    python cv_analysis.py <path-to-cv> <job-position>
+    python cv_analysis.py <path-to-cv> --label <job-position>
     ```
 
 ### Arguments
 - `path-to-cv`: The file path to your CV in PDF format.
-- `job-position`: The job position you are applying for. It can be one of the following:
-    - AI intern
-    - DevOps intern
-    - Frontend intern
-
-#### Example
-```bash
-python cv_analysis.py example_cv.pdf AI intern
-```
+- `job-position`: The job position you are applying for! Example:
+    - AI
+    - DevOps
+    - Frontend
 
 ## Limitations
 - The CV must be in a text-readable PDF format; scanned images are not supported.

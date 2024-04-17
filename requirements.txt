@@ -1,0 +1,4 @@
+argparse
+PyPDF2
+transformers
+torch  # needed as a dependency for transformers
