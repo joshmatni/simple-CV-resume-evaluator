@@ -1,4 +1,3 @@
-# Brokee project!
 import argparse
 import PyPDF2
 from transformers import pipeline
